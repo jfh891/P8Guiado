@@ -37,8 +37,7 @@
           "value": {
             "done": true,
             "description": "={{ $json.body.description }}",
-            "title": "={{ $json.body.title }}",
-            "id": 0
+            "title": "={{ $json.body.title }}"
           },
           "matchingColumns": [
             "id"
@@ -52,7 +51,7 @@
               "display": true,
               "type": "number",
               "canBeUsedToMatch": true,
-              "removed": false
+              "removed": true
             },
             {
               "id": "title",
